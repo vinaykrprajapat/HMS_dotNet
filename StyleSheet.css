@@ -1,0 +1,17 @@
+﻿body 
+{
+    font-family:@Sans-Serif;
+    font-size:16px;
+}
+#sidepan
+{
+ font-size:16px;
+ color:Black;
+   width:20%;  
+}
+
+#sidepan a
+{
+ color:Black;
+ text-decoration:none;       
+}

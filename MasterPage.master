@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WMHCS</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+ <div id="header" runat="server" style=" text-align:center; color:Aqua; width:100%; height:65px; font-size: xx-large; font-style:italic; font-family: Cambria;">
+<a href="welcome.aspx"><img src="logo_op2.jpg" alt="WMHCS"/></a>WMHCS - The Wellmeadows Hospital Case Study
+    <br/>
+
+    </div>
+<div style=" text-align:right; color:Blue;">
+Date And Time :
+        <asp:Label ID="lbldate" runat="server" Text=""></asp:Label>
+    </div>
+    <form id="form1" runat="server">
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <div id="Div1" runat="server" style=" text-align: right; color:Blue; width:100%; margin-top:10px; height:100px; font-size: 24px;  font-style:italic; font-family: Cambria;">
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DDS Case Study&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    </div>
+ 
+
+</body>
+</html>
+    
